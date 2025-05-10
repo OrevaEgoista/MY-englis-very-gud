@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+
+
+<html>
+
+	<head>
+		<title>My fourth webpage</title>
+		<link rel="stylesheet" href="styles.css"/>
+	</head>
+
+	<body>
+		<header>	
+			<nav>
+				<a href="index.html"><img src="https://www.clipartmax.com/png/small/4-41237_free-icons-png-new-home-icon.png" alt="Home icon" width="20px" height="20px"></a>
+				<a href="about.html"><img src="https://avatarfiles.alphacoders.com/375/thumb-1920-375283.jpeg" alt="About my rizz" width="20px" height="20px"</a>
+				<a href="Project.html">Project</a>
+				<a href="contact.html">contact</a>
+			</nav>
+			<h1 id="main-heading">Contact me</h1>
+		
+		<h1>Contact Form</h1>
+
+		<form action="submit_form.php">
+		
+			<label for = "name">Name:</label>
+			<input type = "text" name="name" id = "name"><br/>
+			<label for = "email">Email:</label>
+			<input type = "email" name="email" id = "email"><br/>			
+			<label for = "message">Message:</label><br/>
+			<textarea id = "message" name = "message" rows = "5" cols = "100"></textarea><br/>
+			<label for = "contct-method">Preferred contact method</label><br/>
+			<input type = "radio" id="email contact" name = "contact-method" value = "email" checked>
+			<label for "email contact">email</label><br/>
+			<input type = "radio" id="phone number" name = "contact-method" value = "phone">
+			<label for "phone number">phone</label><br/>
+			<label for = "services">Services intrested in</label><br/>
+			<input type = "checkbox" id="web-design" name = "services" value = "web-design" checked>
+			<label for "web-design">web-design</label><br/>
+			<input type = "checkbox" id="marketing" name = "services" value = "marketing">
+			<label for "marketing">marketing</label><br/>
+			<input type = "radio" id="SEO" name = "services" value = "SEO" >
+			<label for "SEO">SEO</label><br/>
+			<label for = "budget">Estimated budget</label>
+			<select id = "budget" name = "budget">
+			<option value = "under-500">under 500</option>
+			<option value = "500-1000">500-1000</option>
+			<option value = "above-1000">above-1000</option>
+			</select><br/>
+			<button type = "submit">submit</button>
+			
+		</form>
+			
+	</body>
+
+</html>

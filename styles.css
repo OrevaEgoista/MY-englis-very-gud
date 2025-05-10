@@ -1,0 +1,32 @@
+/* Universal selector */
+
+*{
+    font-family: arial, helvetica, sans-serif;
+}
+
+/*Header*/
+/* Grouping selectors */
+header, footer{
+    background-color: #51073d;
+    color: #ff85de;
+}
+
+
+/*Navbar styling*/
+
+nav{
+    color: rgb(240, 240, 240);
+}
+
+#main--heading{
+    background-color: #0180ff;
+    color: white;
+}
+
+/* class selector */
+section-styles{
+    background-color: #e0e0e0;
+}
+aside{
+    background-color: #d9edf7;
+}
